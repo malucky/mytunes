@@ -24,6 +24,7 @@
     <script>
       $(function(){
         // set up model objects
+        window.vent = _.extend({}, Backbone.Events);
         var library = new Songs(songData);
         window.app = new AppModel({library: library});
 

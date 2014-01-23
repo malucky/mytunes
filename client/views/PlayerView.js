@@ -7,6 +7,12 @@ var PlayerView = Backbone.View.extend({
 
   initialize: function() {
     //this.$el.on('ended', this.model.ended.bind(this.model));
+    window.vent.on('dequeue', function(song) {
+      // debugger;
+      if( app.get('currentSong') === song) {
+        this.el.pause();
+      }
+    }.bind(this))
   },
 
   setSong: function(song){

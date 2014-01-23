@@ -4,11 +4,13 @@ var SongQueue = Songs.extend({
   model: SongModel,
 
   initialize: function(){
-    console.log('songQueue initialized');
+    _.bindAll(this, "addSong", "removeSong");
+    // this.on('ended', function() {
+    //   console.log("im done!");
+    // }),
+    window.vent.bind("enqueue", this.addSong);
+    window.vent.bind('dequeue', this.removeSong);
 
-    this.on('ended', function(song) {
-      console.log("im done!");
-    });
   },
 
   playFirst: function() {
