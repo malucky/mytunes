@@ -1,0 +1,68 @@
+body {
+  background-image: url('images/Hackers_Wallpaper_5.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  font-family: 'Freckle Face', cursive;
+  text-shadow: 1px 1px 4px rgba(92, 255, 89, 0.76);
+}
+
+.title {
+  font-family: 'Averia Sans Libre', cursive;
+  font-style: italic;
+
+}
+
+.artist, .count {
+  font-family: 'Averia Sans Libre', cursive;
+  color: #332EE5;
+}
+
+.number {
+  color: black;
+  text-shadow: 1px 1px 2px green;
+}
+
+.songQueue, .library {
+  margin: auto;
+  display: block; 
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.container {
+  margin: auto;
+  width: 50%;
+  margin-top: 10%;
+  padding-top: 30px;
+  -webkit-transition:all 0.5s linear;
+-moz-transition:all 0.5s linear;
+-o-transition:all 0.5s linear;
+transition:all 0.5s linear;
+-moz-box-shadow: 2px 2px 4px 4px rgba(92, 255, 89, 0.76);
+-webkit-box-shadow:  2px 2px 4px 4px rgba(92, 255, 89, 0.76);
+box-shadow: 2px 2px 4px 4px rgba(92, 255, 89, 0.76);
+-moz-border-radius:7px 7px 7px 7px ;
+-webkit-border-radius:7px 7px 7px 7px ;
+border-radius:7px 7px 7px 7px ;
+background-color: #C2F1FE;
+opacity: 0.8;
+}
+
+audio
+{
+margin: auto;
+display: block; 
+-webkit-transition:all 0.5s linear;
+-moz-transition:all 0.5s linear;
+-o-transition:all 0.5s linear;
+transition:all 0.5s linear;
+-moz-box-shadow: 2px 2px 4px 0px rgba(92, 255, 89, 0.76);
+-webkit-box-shadow:  2px 2px 4px 0px rgba(92, 255, 89, 0.76);
+box-shadow: 2px 2px 4px 0px rgba(92, 255, 89, 0.76);
+-moz-border-radius:7px 7px 7px 7px ;
+-webkit-border-radius:7px 7px 7px 7px ;
+border-radius:7px 7px 7px 7px ;
+}
