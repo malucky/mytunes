@@ -37,32 +37,28 @@ h1 {
   width: 50%;
   margin-top: 10%;
   padding-top: 30px;
-  -webkit-transition:all 0.5s linear;
--moz-transition:all 0.5s linear;
--o-transition:all 0.5s linear;
-transition:all 0.5s linear;
--moz-box-shadow: 2px 2px 4px 4px rgba(92, 255, 89, 0.76);
--webkit-box-shadow:  2px 2px 4px 4px rgba(92, 255, 89, 0.76);
-box-shadow: 2px 2px 4px 4px rgba(92, 255, 89, 0.76);
--moz-border-radius:7px 7px 7px 7px ;
--webkit-border-radius:7px 7px 7px 7px ;
-border-radius:7px 7px 7px 7px ;
-background-color: #C2F1FE;
-opacity: 0.8;
+  -moz-box-shadow: 2px 2px 4px 4px rgba(92, 255, 89, 0.76);
+  -webkit-box-shadow:  2px 2px 4px 4px rgba(92, 255, 89, 0.76);
+  box-shadow: 2px 2px 4px 4px rgba(92, 255, 89, 0.76);
+  -moz-border-radius:7px 7px 7px 7px ;
+  -webkit-border-radius:7px 7px 7px 7px ;
+  border-radius:7px 7px 7px 7px ;
+  background-color: #C2F1FE;
+  opacity: 0.8;
 }
 
 audio
 {
-margin: auto;
-display: block; 
--webkit-transition:all 0.5s linear;
--moz-transition:all 0.5s linear;
--o-transition:all 0.5s linear;
-transition:all 0.5s linear;
--moz-box-shadow: 2px 2px 4px 0px rgba(92, 255, 89, 0.76);
--webkit-box-shadow:  2px 2px 4px 0px rgba(92, 255, 89, 0.76);
-box-shadow: 2px 2px 4px 0px rgba(92, 255, 89, 0.76);
--moz-border-radius:7px 7px 7px 7px ;
--webkit-border-radius:7px 7px 7px 7px ;
-border-radius:7px 7px 7px 7px ;
+  margin: auto;
+  display: block; 
+  -webkit-transition:all 0.5s linear;
+  -moz-transition:all 0.5s linear;
+  -o-transition:all 0.5s linear;
+  transition:all 0.5s linear;
+  -moz-box-shadow: 2px 2px 4px 0px rgba(92, 255, 89, 0.76);
+  -webkit-box-shadow:  2px 2px 4px 0px rgba(92, 255, 89, 0.76);
+  box-shadow: 2px 2px 4px 0px rgba(92, 255, 89, 0.76);
+  -moz-border-radius:7px 7px 7px 7px ;
+  -webkit-border-radius:7px 7px 7px 7px ;
+  border-radius:7px 7px 7px 7px ;
 }

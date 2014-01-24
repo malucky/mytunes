@@ -1,7 +1,6 @@
 // PlayCountView.js - Defines a backbone view class for the music library.
 var PlayCountView = Backbone.View.extend({
 
-  tagName: "div",
   className: "playCount",
 
   initialize: function() {

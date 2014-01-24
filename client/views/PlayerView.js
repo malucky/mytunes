@@ -6,9 +6,7 @@ var PlayerView = Backbone.View.extend({
   el: '<audio controls autoplay />',
 
   initialize: function() {
-    //this.$el.on('ended', this.model.ended.bind(this.model));
     window.vent.on('dequeue', function(song) {
-      // debugger;
       if( app.get('currentSong') === song) {
         this.el.pause();
       }

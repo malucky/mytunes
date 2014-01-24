@@ -2,14 +2,23 @@
 var SongModel = Backbone.Model.extend({
   playCount: 0,
 
+  retrievePlayCount: function() {
+    var that = this;
+    that.playCount = window.localStorage.getItem(that.get('title')) || 0;
+  },
+
+  initialize: function() {
+    this.retrievePlayCount();
+  },
+
   increment: function(){
-    this.playCount++;
+    this.playCount++
+    window.localStorage.setItem(this.get('title'), this.playCount);
     window.vent.trigger('increment', this);
   },
 
   play: function(){
-    // Triggering an event here will also trigger the event on the collection
-    this.trigger('play', this);
+    window.vent.trigger('play', this);
   },
 
   enqueue: function() {
@@ -24,7 +33,7 @@ var SongModel = Backbone.Model.extend({
   },
 
   ended: function() {
-    console.log('ended');
     window.vent.trigger('ended', this);
+    console.log('ended triggered');
   }
 });
